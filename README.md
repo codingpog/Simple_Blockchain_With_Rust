@@ -36,7 +36,7 @@ To use this blockchain implementation, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/codingpog/blockchain-rust.git
+   git clone https://github.com/codingpog/Simple_Blockchain_With_Rust.git
 
 2. Import the required modules at the beginning of your Rust file.
    ```bash
