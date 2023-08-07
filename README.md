@@ -13,6 +13,8 @@ This repository contains a simple implementation of a blockchain in Rust. The bl
 
 This project aims to demonstrate the basic concepts of a blockchain and parallel mining using Rust. It provides a simplified implementation of a blockchain with functionalities like block creation, mining, and validation.
 
+A block in a blockchain contains information. Many of these blocks create a blockchain. Many miners (worker threads) will compete over the right to mine a block by seeing who can find the first proof value, which, when combined with other information from the block, will give a hash that ends in x zero bits (x is one of the block's information)
+
 ## Block
 
 The `Block` struct represents an individual block in the blockchain. Each block contains the following attributes:
